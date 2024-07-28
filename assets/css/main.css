@@ -3156,9 +3156,9 @@ input, select, textarea {
 				letter-spacing: 0.025em;
 			}
 
-			p {
-				/*text-align: justify; */
-			}
+			/*p {
+				text-align: justify;
+			}*/
 
 		/* Section/Article */
 
