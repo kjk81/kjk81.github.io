@@ -1,3 +1,5 @@
+/*Some of my additional CSS code*/
+
 .profile-pic {
     margin: 0 0 1rem 0;
     border-radius: 40%;
@@ -8,5 +10,11 @@
 @media screen and (max-width: 736px) {
     .profile-pic {
         max-width: 90%;
+    }
+
+    .diss {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
     }
 }
