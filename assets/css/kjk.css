@@ -1,10 +1,30 @@
 /*Some of my additional CSS code*/
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
 .profile-pic {
     margin: 0 0 1rem 0;
     border-radius: 40%;
     max-width: 35%;
     height: auto;
+}
+
+.bot-margin {
+    margin-bottom: 12rem;
+}
+
+.top-margin {
+    margin-top: 12rem;
+}
+.top-margin-2 {
+	margin-top: 6rem;
+}
+.orange {
+	color:#df7300;
+}
+p.no-margin {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
 }
 
 @media screen and (max-width: 736px) {
@@ -17,4 +37,474 @@
         opacity: 0;
         position: absolute;
     }
+
+    .bot-margin {
+        margin-bottom: 6rem;
+    }
+
+    .top-margin {
+        margin-top: 6rem;
+    }
 }
+
+/*
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+.features {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 0 2em 0;
+}
+
+    .features article {
+        padding: 1.75em 1.75em 0.1em 1.75em ;
+        background-color: #7c8081;
+        border-radius: 5px;
+        margin: 1.5em 3em 1.5em 0;
+        width: calc(50% - 1.5em);
+
+        color: white;
+    }
+
+        .features article:nth-child(2n) {
+            margin-right: 0;
+        }
+
+        .features article .image-2 {
+            border-radius: 5px 5px 0 0;
+            display: block;
+            margin-bottom: 1.75em;
+            margin-left: -1.75em;
+            margin-top: -1.75em;
+            position: relative;
+            width: calc(100% + 3.5em);
+        }
+
+            .features article .image-2 img {
+                border-radius: 5px 5px 0 0;
+                width: 100%;
+            }
+
+    @media screen and (max-width: 980px) {
+
+        .features article {
+            margin: 1em 2em 1em 0;
+            width: calc(50% - 1em);
+        }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        .features article {
+            padding: 1.5em 1.5em 0.1em 1.5em ;
+            margin: 0.875em 1.75em 0.875em 0;
+            width: calc(50% - 0.875em - 1px);
+        }
+
+            .features article .image-2 {
+                margin-bottom: 1.5em;
+                margin-left: -1.5em;
+                margin-top: -1.5em;
+                width: calc(100% + 3em);
+            }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+        .features {
+            display: block;
+        }
+
+            .features article {
+                width: 100%;
+                margin: 0 0 2em 0 !important;
+            }
+
+    }
+
+    section.special-2, article.special-2 {
+		text-align: center;
+	}
+
+    a .special-2{
+		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+		a.special-2:hover {
+			border-bottom-color: transparent;
+			color: #ffffff !important;
+		}
+
+		a.special-2:not(.button-2) {
+			text-decoration: none;
+			border-bottom: 0;
+			display: block;
+			font-family: Raleway, Helvetica, sans-serif;
+			font-size: 0.8em;
+			font-weight: 700;
+			letter-spacing: 0.1em;
+			margin: 0 0 2em 0;
+			text-transform: uppercase;
+		}
+
+			a.special-2:not(.button-2):before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
+				text-transform: none !important;
+				font-family: 'Font Awesome 5 Free';
+				font-weight: 900;
+			}
+
+			a.special-2:not(.button-2):before {
+				-moz-transition: background-color 0.2s ease-in-out;
+				-webkit-transition: background-color 0.2s ease-in-out;
+				-ms-transition: background-color 0.2s ease-in-out;
+				transition: background-color 0.2s ease-in-out;
+				border-radius: 100%;
+				border: solid 2px rgba(255, 255, 255, 0.125);
+				content: '\f105';
+				display: inline-block;
+				font-size: 1.25em;
+				height: 2em;
+				line-height: 1.75em;
+				margin-right: 0.85em;
+				text-align: center;
+				text-indent: 0.15em;
+				vertical-align: middle;
+				width: 2em;
+			}
+
+			a.special-2:not(.button-2):hover:before {
+				background-color: rgba(255, 255, 255, 0.025);
+			}
+
+			a.special-2:not(.button-2):active:before {
+				background-color: rgba(255, 255, 255, 0.075);
+			}
+
+
+    .image-2 {
+		border-radius: 5px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.image-2 img {
+			border-radius: 5px;
+			display: block;
+		}
+
+		.image-2.left, .image-2.right {
+			max-width: 40%;
+		}
+
+			.image-2.left img, .image-2.right img {
+				width: 100%;
+			}
+
+		.image-2.left {
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image-2.right {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image-2.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+			.image-2.fit img {
+				width: 100%;
+			}
+
+		.image-2.main {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 100%;
+		}
+
+		.image-2.main img {
+				width: 100%;
+		}
+
+            h1.major-2, h2.major-2, h3.major-2, h4.major-2, h5.major-2, h6.major-2 {
+                padding-bottom: 1em;
+                border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+            }
+            
+
+        
+            .wrapper-2 {
+                background-color: #ffffff;
+                margin: 6.5em 0;
+                position: relative;
+            }
+        
+                .wrapper-2:before, .wrapper-2:after {
+                    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23ffffff%3B' /%3E%3C/svg%3E");
+                }
+        
+                .wrapper-2:before {
+                    box-shadow: inset 0 -1px 0 0 #ffffff, 0 1px 0 0 #ffffff;
+                }
+        
+                .wrapper-2:after {
+                    box-shadow: inset 0 -1px 0 0 #ffffff, 0 1px 0 0 #ffffff;
+                }
+        
+                .wrapper-2:before, .wrapper-2:after {
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    content: '';
+                    display: block;
+                    height: 6.5em;
+                    position: absolute;
+                    width: 100%;
+                }
+        
+                .wrapper-2:before {
+                    left: 0;
+                    top: -6.5em;
+                }
+        
+                .wrapper-2:after {
+                    -moz-transform: scaleY(-1);
+                    -webkit-transform: scaleY(-1);
+                    -ms-transform: scaleY(-1);
+                    transform: scaleY(-1);
+                    bottom: -6.5em;
+                    left: 0;
+                }
+        
+                .wrapper-2.alt-2:before {
+                    -moz-transform: scaleX(-1);
+                    -webkit-transform: scaleX(-1);
+                    -ms-transform: scaleX(-1);
+                    transform: scaleX(-1);
+                }
+        
+                .wrapper-2.alt-2:after {
+                    -moz-transform: scaleY(-1) scaleX(-1);
+                    -webkit-transform: scaleY(-1) scaleX(-1);
+                    -ms-transform: scaleY(-1) scaleX(-1);
+                    transform: scaleY(-1) scaleX(-1);
+                }
+        
+                .wrapper-2 .inner-2 {
+                    padding: 3em 0 1em 0 ;
+                    margin: 0 auto;
+                    width: 55em;
+                }
+        
+        
+                @media screen and (max-width: 980px) {
+        
+                    .wrapper-2 {
+                        margin: 4.75em 0;
+                    }
+        
+                        .wrapper-2:before, .wrapper-2:after {
+                            height: 4.75em;
+                        }
+        
+                        .wrapper-2:before {
+                            top: -4.75em;
+                        }
+        
+                        .wrapper-2:after {
+                            bottom: -4.75em;
+                            left: 0;
+                        }
+        
+                        .wrapper-2 .inner-2 {
+                            padding: 3em 3em 1em 3em ;
+                            width: 100%;
+                        }
+                }
+        
+                @media screen and (max-width: 736px) {
+        
+                    .wrapper-2 {
+                        margin: 2.5em 0;
+                    }
+        
+                        .wrapper-2:before, .wrapper-2:after {
+                            height: 2.5em;
+                        }
+        
+                        .wrapper-2:before {
+                            top: -2.5em;
+                        }
+        
+                        .wrapper-2:after {
+                            bottom: -2.5em;
+                            left: 0;
+                        }
+        
+                        .wrapper-2 .inner-2 {
+                            padding: 2em 2em 0.1em 2em ;
+                        }
+        
+                }
+        
+                @media screen and (max-width: 360px) {
+        
+                    .wrapper-2 .inner-2 {
+                        padding: 2em 1.5em 0.1em 1.5em ;
+                    }
+        
+                }
+
+/* actions-2 */
+
+	ul.actions-2 {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		cursor: default;
+		list-style: none;
+		margin-left: -1em;
+		padding-left: 0;
+	}
+
+		ul.actions-2 li {
+			padding: 0 0 0 1em;
+			vertical-align: middle;
+		}
+
+		ul.actions-2.special {
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			width: 100%;
+			margin-left: 0;
+		}
+
+			ul.actions-2.special li:first-child {
+				padding-left: 0;
+			}
+
+		ul.actions-2.stacked {
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			margin-left: 0;
+		}
+
+			ul.actions-2.stacked li {
+				padding: 1.3em 0 0 0;
+			}
+
+				ul.actions-2.stacked li:first-child {
+					padding-top: 0;
+				}
+
+		ul.actions-2.fit {
+			width: calc(100% + 1em);
+		}
+
+			ul.actions-2.fit li {
+				-moz-flex-grow: 1;
+				-webkit-flex-grow: 1;
+				-ms-flex-grow: 1;
+				flex-grow: 1;
+				-moz-flex-shrink: 1;
+				-webkit-flex-shrink: 1;
+				-ms-flex-shrink: 1;
+				flex-shrink: 1;
+				width: 100%;
+			}
+
+				ul.actions-2.fit li > * {
+					width: 100%;
+				}
+
+			ul.actions-2.fit.stacked {
+				width: 100%;
+			}
+
+		@media screen and (max-width: 480px) {
+
+			ul.actions-2:not(.fixed) {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				margin-left: 0;
+				width: 100% !important;
+			}
+
+				ul.actions-2:not(.fixed) li {
+					-moz-flex-grow: 1;
+					-webkit-flex-grow: 1;
+					-ms-flex-grow: 1;
+					flex-grow: 1;
+					-moz-flex-shrink: 1;
+					-webkit-flex-shrink: 1;
+					-ms-flex-shrink: 1;
+					flex-shrink: 1;
+					padding: 1em 0 0 0;
+					text-align: center;
+					width: 100%;
+				}
+
+					ul.actions-2:not(.fixed) li > * {
+						width: 100%;
+					}
+
+					ul.actions-2:not(.fixed) li:first-child {
+						padding-top: 0;
+					}
+
+					ul.actions-2:not(.fixed) li input[type="submit"],
+					ul.actions-2:not(.fixed) li input[type="reset"],
+					ul.actions-2:not(.fixed) li input[type="button"],
+					ul.actions-2:not(.fixed) li button-2,
+					ul.actions-2:not(.fixed) li .button-2 {
+						width: 100%;
+					}
+
+						ul.actions-2:not(.fixed) li input[type="submit"].icon:before,
+						ul.actions-2:not(.fixed) li input[type="reset"].icon:before,
+						ul.actions-2:not(.fixed) li input[type="button"].icon:before,
+						ul.actions-2:not(.fixed) li button-2.icon:before,
+						ul.actions-2:not(.fixed) li .button-2.icon:before {
+							margin-left: -0.5rem;
+						}
+
+		}
+            
+        
