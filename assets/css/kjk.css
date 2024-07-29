@@ -18,6 +18,10 @@
 .top-margin-2 {
 	margin-top: 6rem;
 }
+.top-margin-3 {
+	margin-top: 0;
+}
+
 .orange {
 	color:#df7300;
 }
@@ -25,7 +29,7 @@ p.no-margin {
     margin: 0;
     padding: 0;
     font-style: italic;
-	color: #ff992d;
+	color: #f9880f;
 }
 
 @media screen and (max-width: 736px) {
@@ -46,6 +50,13 @@ p.no-margin {
     .top-margin {
         margin-top: 6rem;
     }
+	.top-margin-3 {
+		margin-top: 6rem;
+	}
+
+	.top-margin-2 {
+		margin-top: 0;
+	}
 }
 
 /*
