@@ -25,6 +25,7 @@ p.no-margin {
     margin: 0;
     padding: 0;
     font-style: italic;
+	color: #ff992d;
 }
 
 @media screen and (max-width: 736px) {
